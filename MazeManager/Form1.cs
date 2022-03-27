@@ -30,9 +30,9 @@ namespace MazeManager
             MouseDown += Controls_MouseDown;
         }
         private void button1_Click(object sender, EventArgs e) => Process.GetCurrentProcess().Kill();
-        //private Round Maze = new Round();
+        private Round Maze = new Round();
         //private Recursive_backtracker Maze = new Recursive_backtracker();
-        private RoundReverse Maze = new RoundReverse();
+        //private RoundReverse Maze = new RoundReverse();
         private void button2_Click(object sender, EventArgs e)
         {
             Maze.Gen(panel1);
