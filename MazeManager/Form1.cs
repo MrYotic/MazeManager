@@ -8,9 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
+using System.Numerics;
 
 namespace MazeManager
-{
+{    
     public partial class Form1 : Form
     {
         #region Misc
